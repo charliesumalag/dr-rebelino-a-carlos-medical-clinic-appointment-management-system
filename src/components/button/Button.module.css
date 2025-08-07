@@ -1,0 +1,27 @@
+.buttonContainer{
+
+}
+.button{
+
+    color: white;
+   padding: 1.4rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    letter-spacing: 0.6px;
+    margin-block: 1rem;
+    border-radius: 5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.login{
+    background-color: #0F689E;
+    width: 100%;
+}
+.home{
+    background-color: #0C517C;
+    padding: 1.4rem 3rem;
+}
+.button:hover{
+    background-color: #0C517C;
+}

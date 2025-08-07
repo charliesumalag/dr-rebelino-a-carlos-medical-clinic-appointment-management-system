@@ -1,0 +1,21 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.label{
+    font-size: 1.6rem;
+    letter-spacing: 0;
+    font-family: var(font-family);
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+}
+.input{
+    padding: 1.4rem 0.6rem;
+    border-radius: 0.3rem;
+    outline: none;
+    border: 1px solid #999;
+    font-family: var(font-family);
+    color: #888;
+}
