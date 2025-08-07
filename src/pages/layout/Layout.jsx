@@ -6,7 +6,7 @@ import styles from "../layout/Layout.module.css";
 const Layout = () => {
   return (
     <div className={styles.container}>
-        <Nav />
+        <Nav variant='home' />
         <div>
           <Outlet />
         </div>

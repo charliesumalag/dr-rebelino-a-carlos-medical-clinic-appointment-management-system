@@ -1,0 +1,18 @@
+.headerTextContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.header{
+    color: black;
+    font-size: 3rem;
+}
+.headerSub{
+    color: #999;
+}
+.home{
+    color: white;
+}
+.homeHeaderSub{
+    color: #444;
+}
