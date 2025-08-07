@@ -1,0 +1,19 @@
+.profileContainer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.profileImageContainer{
+    width: 6rem;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    border-radius: 50%;
+}
+.accountName{
+    font-size: 2.2rem;
+}
+.email{
+    color: #666;
+}

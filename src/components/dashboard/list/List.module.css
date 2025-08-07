@@ -1,0 +1,9 @@
+.icon{
+    width: 2rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+}
