@@ -1,4 +1,7 @@
 .layoutContainer{
     display: flex;
-    gap: 4rem;
+}
+.outletContainer{
+    width: 100%;
+    padding: 2rem 1rem;
 }

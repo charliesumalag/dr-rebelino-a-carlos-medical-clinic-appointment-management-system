@@ -4,6 +4,11 @@
     height: 100vh;
     margin-right: 2rem;
 }
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 .hr{
     margin-top: 3rem;
     margin-bottom: 6rem;

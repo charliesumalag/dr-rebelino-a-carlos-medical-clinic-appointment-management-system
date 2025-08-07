@@ -5,8 +5,9 @@
     border: none;
     cursor: pointer;
     font-weight: 600;
+    border-radius: 0.3rem;
 }
 .logout{
     background-color: #D8EBFA;
-    color: blue;
+    color: #222;
 }
