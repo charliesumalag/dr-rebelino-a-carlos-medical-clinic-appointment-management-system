@@ -1,8 +1,8 @@
 .navContainer {
-  padding: 2rem 4rem;
+  padding: 2rem 7rem;
   border-right: 1px solid #999;
   height: 100vh;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 .profileContainer {
   display: flex;

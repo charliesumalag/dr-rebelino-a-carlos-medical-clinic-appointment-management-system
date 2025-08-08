@@ -1,0 +1,17 @@
+.boxesContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+    border: 1px solid #999;
+    flex: 1;
+    justify-content: space-around;
+    border-radius: 0.8rem;
+}
+.text{
+    font-size: 1.8rem;
+}
+.icon{
+    color: #0A76D8;
+    font-size: 2.8rem;
+}

@@ -1,0 +1,78 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2.8rem;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.searchMainContainer{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+}
+.searchContainer {
+  position: relative;
+  width: fit-content;
+  flex: 1;
+}
+
+.input {
+    padding: 0.8rem 1.4rem;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border:  1px solid #999;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    color: #444;
+    font-family: sans-serif;
+}
+
+.icon {
+  position: absolute;
+  right: 0.8rem;
+  top: 63%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: gray;
+  pointer-events: none; /* so it doesn't block typing */
+}
+.dateContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    gap: 2rem;
+    margin-right: 5rem;
+
+}
+.iconContainer{
+    font-size: 2.8rem;
+    color: #444;
+}
+.date{
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.2rem;
+}
+.list{
+    flex: 1;
+}
+.upcomingList{
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5rem;
+}
