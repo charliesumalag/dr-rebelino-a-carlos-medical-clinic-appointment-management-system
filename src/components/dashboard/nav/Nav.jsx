@@ -1,9 +1,9 @@
 import React from 'react'
-import DashboardIcon from '../../../assets/dashboardIcon.svg?react';
-import DoctorIcon from "../../../assets/health.svg?react";
-import CalendarIcon from "../../../assets/calendar.svg?react";
-import AppointmentIcon from "../../../assets/appointment.svg?react";
-import PatientIcon from "../../../assets/patient.svg?react";
+import { MdDashboard } from 'react-icons/md';
+import { MdDifference } from "react-icons/md";
+import { MdSchedule } from "react-icons/md";
+import { MdCheckCircleOutline } from "react-icons/md";
+import { MdWheelchairPickup } from "react-icons/md";
 import Profile from '../../profile/Profile'
 import Button from "../../../components/dashboard/button/Button";
 import styles from "./Nav.module.css";
@@ -19,21 +19,41 @@ const Nav = () => {
        </div>
       <hr className={styles.hr} />
       <ul className={styles.listContainer}>
-        <NavLink to='/admin' >
-          <List text='Dashboard' icon={DashboardIcon} />
-        </NavLink>
-        <NavLink to='/admin/doctor' >
-          <List text='Doctors' icon={DoctorIcon} />
-        </NavLink>
-        <NavLink to='/admin/schedule'>
-          <List text='Schedule' icon={CalendarIcon} />
-        </NavLink>
-        <NavLink to='/admin/appointment'>
-          <List text='Appointment' icon={AppointmentIcon} />
-        </NavLink>
-        <NavLink to='/admin/patient'>
-          <List text='Patient' icon={PatientIcon} />
-        </NavLink>
+        <li>
+          <NavLink to="/admin" end className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}>
+            {({ isActive }) => (
+              <List text="Dashboard" icon={MdDashboard} isActive={isActive} />
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/admin/doctor" className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}>
+            {({isActive}) => (
+              <List text="Doctors" icon={MdDifference} isActive={isActive} />
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/admin/schedule" className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}>
+            {({isActive}) => (
+            <List text="Schedule" icon={MdSchedule} isActive={isActive} />
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/admin/appointment" className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}>
+            {({isActive}) => (
+            <List text="Appointment" icon={MdCheckCircleOutline} isActive={isActive} />
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/admin/patient" className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}>
+            {({isActive}) => (
+            <List text="Patient" icon={MdWheelchairPickup} isActive={isActive} />
+            )}
+          </NavLink>
+        </li>
       </ul>
     </div>
   )

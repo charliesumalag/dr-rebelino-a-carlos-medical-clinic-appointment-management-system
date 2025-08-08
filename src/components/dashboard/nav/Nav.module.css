@@ -1,20 +1,33 @@
-.navContainer{
-    padding: 2rem 4rem;
-    border-right: 1px solid #999;
-    height: 100vh;
-    margin-right: 2rem;
+.navContainer {
+  padding: 2rem 4rem;
+  border-right: 1px solid #999;
+  height: 100vh;
+  margin-right: 2rem;
 }
-.profileContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.hr{
-    margin-top: 3rem;
-    margin-bottom: 6rem;
+
+.hr {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
 }
-.listContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 2.8rem;
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: blue;
 }

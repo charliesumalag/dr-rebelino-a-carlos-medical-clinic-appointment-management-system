@@ -1,13 +1,14 @@
 import React from 'react';
 import styles from "./List.module.css";
+import clsx from "clsx";
 
 
-const List = ({text, icon: Icon}) => {
+const List = ({text, icon: Icon, isActive}) => {
   return (
-    <li className={styles.list}>
-        {Icon && <Icon className={styles.icon} />}
-        <span>{text}</span>
-    </li>
+    <div className={clsx(styles.list, isActive && styles.active)}>
+      {Icon && <Icon className={styles.icon} />}
+      <span className={styles.text}>{text}</span>
+    </div>
   )
 }
 
