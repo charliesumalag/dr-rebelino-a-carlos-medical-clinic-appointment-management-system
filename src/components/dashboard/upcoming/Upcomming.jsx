@@ -7,7 +7,7 @@ const Upcomming = ({headerText, texts, lists, buttonLable}) => {
   return (
     <div className={styles.wrapper}>
       <HeaderText text={headerText} variant='headerTextColor'/>
-      <div>
+      <div className={styles.subText}>
         {texts.map((text, index) => (
            <p key={index}>{text}</p>
         ))}

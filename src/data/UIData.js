@@ -10,7 +10,7 @@ export const upcomingSectionData = [
   {
     headerText: 'Upcoming Sessions until Next Friday',
     texts: ['Heres quick access of upcoming sessions that scheduled until 7 days', 'Add, remove and many features available in schedule section'],
-    lists: ['Session title', 'Doctor', 'Scedule Date and Time'],
+    lists: ['Session title', 'Doctor', 'Scedule Date and Time','Status'],
     buttonLable: 'Show all sessiona'
   }
 ];
